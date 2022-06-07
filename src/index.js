@@ -6,6 +6,12 @@ let debug = false
 const moduleName = "react-moengage"
 
 // --------------------------------------------------------
+// Polyfills for SSR
+// --------------------------------------------------------
+var document = require("global/document")
+var window = require("global/window")
+
+// --------------------------------------------------------
 // Helpers
 // --------------------------------------------------------
 
